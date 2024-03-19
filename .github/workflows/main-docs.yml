@@ -44,6 +44,8 @@ jobs:
 
       - name: Deploy
         run: |
+          env
+          echo $HOME
           rig deploy docs \
             --project docs \
             --environment production \
